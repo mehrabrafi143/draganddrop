@@ -20,3 +20,66 @@
 .App-link {
   color: #09d3ac;
 }
+
+.redBorder {
+  min-height: 5rem;
+  max-height: 100%;
+  width: 80%;
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+
+.redBorderQs {
+  position: relative;
+  width: 90%;
+  border: 1px solid black;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.subsection {
+  position: relative;
+}
+.section {
+  position: relative;
+}
+.half {
+  width: 33%;
+  display: inline-block;
+}
+
+.hoverEffect {
+  border: "1px solid black";
+}
+.top {
+  top: 0;
+}
+
+select-editable {
+  position: relative;
+  background-color: black;
+  border: solid grey 1px;
+  width: 120px;
+  height: 18px;
+}
+.select-editable select {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 14px;
+  border: none;
+  width: 120px;
+  margin: 0;
+}
+.select-editable input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  padding: 1px;
+  font-size: 12px;
+  border: none;
+}
+.select-editable select:focus,
+.select-editable input:focus {
+  outline: none;
+}
